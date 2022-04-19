@@ -1,7 +1,7 @@
 import random
 import requests
 
-APIkey = '90ebbc6df57d82cce5dade5330c63a05'
+
 
 '''
     This function prints a random message from either mild_weather_list or extreme_weather_list.
