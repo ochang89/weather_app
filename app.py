@@ -40,7 +40,9 @@ while True:
         print(f"2 | Get tomorrow's weather for {city}")
         print("3 | Choose another city")
         print("4 | Quit")
+
         choice = input("Choose an option: ")
+
         if choice == '':
             print("Error: Choose a valid option.")
         if choice == '1':
