@@ -1,15 +1,8 @@
 import random
 import requests
-from dotenv import load_dotenv
-import os
+from decouple import config
 
-<<<<<<< HEAD
-load_dotenv()
-
-APIKey= os.getenv("APIKey")
-=======
-
->>>>>>> 524453224faf1476629fa7c12ccfa2b0f653679a
+APIkey = config("APIkey")
 
 '''
     This function prints a random message from either mild_weather_list or extreme_weather_list.
